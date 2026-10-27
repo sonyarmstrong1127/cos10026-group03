@@ -1,0 +1,93 @@
+/*
+filename: styles.css
+author: COS10026 Group 03
+created: 26 October 2026
+description: Shared stylesheet. Each owner edits only their own PAGE section.
+*/
+
+/* ===== Base ===== */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #222222;
+  background-color: #ffffff;
+}
+
+main {
+  max-width: 60em;
+  margin: 0 auto;
+  padding: 1em;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+a:focus, input:focus, select:focus, textarea:focus, button:focus {
+  outline: 3px solid #0b5394;
+  outline-offset: 2px;
+}
+
+.skip-link {
+  position: absolute;
+  left: -9999px;
+}
+
+.skip-link:focus {
+  left: 0;
+  padding: 0.5em 1em;
+  background-color: #ffffff;
+}
+
+/* ===== Header, menu, footer (shared) ===== */
+header, footer {
+  padding: 1em;
+  color: #ffffff;
+  background-color: #1b5e20;
+}
+
+header a, footer a {
+  color: #ffffff;
+}
+
+.brand {
+  margin: 0;
+  font-size: 1.4em;
+  font-weight: bold;
+}
+
+nav ul, footer ul {
+  margin: 0.5em 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li, footer li {
+  display: inline-block;
+  margin-right: 1em;
+}
+
+nav a[aria-current="page"] {
+  font-weight: bold;
+  text-decoration: none;
+}
+
+/* ===== PAGE: index.html (owner: Member 1) ===== */
+
+/* ===== PAGE: jobs.html (owner: Member 2) ===== */
+
+/* ===== PAGE: apply.html (owner: Member 3) ===== */
+
+/* ===== PAGE: about.html (owner: Member 2 or 3) ===== */
+
+/* ===== Responsive (add @media rules here) ===== */
+
+/* Logo in header */
+.brand a {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5em;
+  text-decoration: none;
+}
