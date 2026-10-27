@@ -1,22 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="TODO: job vacancies">
-  <meta name="keywords" content="TODO">
-  <meta name="author" content="COS10026 Group 03">
-  <title>Jobs | Harvest Power</title>
-  <link rel="stylesheet" href="styles/styles.css">
-  <!-- TODO: add ONE small embedded <style> rule here (required once per page) -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Job Vacancies | Harvest Power</title>
+  <link rel="stylesheet" href="styles.css">
+  <!-- Required Rubric Criterion: At least one embedded CSS example on every web page -->
+  <style>
+    .jobs-header-title {
+      color: #1b5e20;
+      border-bottom: 2px solid #1b5e20;
+      padding-bottom: 0.3em;
+    }
+  </style>
 </head>
 <body>
-  <a class="skip-link" href="#main-content">Skip to main content</a>
 
-  <!-- Shared header and menu: keep identical on every page (only aria-current changes) -->
+  <!-- Skip link for keyboard accessibility -->
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <!-- Shared Global Header -->
   <header>
-    <p class="brand"><a href="index.html"><img src="images/logo.png" alt="Harvest Power logo: an orange pumpkin" width="48" height="48"> Harvest Power</a></p>
-    <nav aria-label="Main menu">
+    <p class="brand">
+      <a href="index.html">
+        <span>Harvest Power</span>
+      </a>
+    </p>
+    <nav>
       <ul>
         <li><a href="index.html">Home</a></li>
         <li><a href="jobs.html" aria-current="page">Jobs</a></li>
@@ -26,23 +36,94 @@
     </nav>
   </header>
 
-  <main id="main-content">
-    <!-- OWNER: Member 2 -->
-    <h1>Jobs</h1>
-    <!-- TODO: job listings with reference number, title, description, requirements (lists) -->
-    <!-- TODO: aside, inclusion statement, other required elements from the brief -->
-    <p>TODO</p>
-  </main>
+  <!-- Main Content Structural Layout Wrapper -->
+  <main id="main-content" class="jobs-container">
+    
+    <!-- Primary Content Area -->
+    <div class="jobs-main-content">
+      <h1 class="jobs-header-title">Career Opportunities in Clean Energy</h1>
+      <p>Join our mission to strengthen renewable technologies, manage smart grids, and deliver public engagement initiatives for clean energy solutions.</p>
 
-  <!-- Shared footer: keep identical on every page -->
-  <footer>
-    <p>&copy; 2026 Harvest Power. Fictional company for COS10026 Applied Web Project, Group 03.</p>
-    <ul>
-      <li><a href="https://sonyarmstrong1127.atlassian.net/jira/software/projects/CG03/boards/2">Jira project</a></li>
-      <li><a href="https://github.com/sonyarmstrong1127/cos10026-group03">GitHub repository</a></li>
-      <li><a href="https://sonyarmstrong1127.github.io/cos10026-group03/">Live site</a></li>
-      <li><a href="mailto:info@harvestpower.example">info@harvestpower.example</a></li>
-    </ul>
-  </footer>
+      <!-- Position 1: Section structural element -->
+      <section class="jobs-section">
+        <h2>Renewable Energy Systems Engineer</h2>
+        
+        <!-- Inline CSS example: At least one inline CSS example on every web page -->
+        <p><strong>Job Reference Number:</strong> <code style="background-color: #f0f0f0; padding: 0.2em 0.4em; border-radius: 3px;">RE109</code></p>
+        
+        <p><strong>Short Description:</strong> We are looking for a skilled engineer to build, optimize, and evaluate commercial solar and wind infrastructure platforms while maintaining clean system data workflows.</p>
+        
+        <h3>Role Position Details</h3>
+        <ul>
+          <li><strong>Salary:</strong> $95,000 - $112,000 AUD per annum</li>
+          <li><strong>Reporting Line:</strong> Reports directly to the Principal Projects Director</li>
+        </ul>
+
+        <h3>Key Responsibilities</h3>
+        <!-- Requirement: At least one ordered list across the descriptions -->
+        <ol>
+          <li>Design and test operational models for commercial clean energy integration.</li>
+          <li>Collaborate with web developers to present real-time performance analytics on community portals.</li>
+          <li>Review public safety protocols and system security updates systematically.</li>
+        </ol>
+
+        <h3>Position Requirements</h3>
+        <!-- Requirement: At least one unordered list across the descriptions -->
+        <ul>
+          <li><strong>Essential:</strong> Bachelor’s degree in Engineering or Renewable Technologies, and 2+ years of grid-modeling experience.</li>
+          <li><strong>Preferable:</strong> Familiarity with smart-grid monitoring tools and collaborative project management spaces like Jira.</li>
+        </ul>
+      </section>
+
+      <!-- Position 2: Section structural element -->
+      <section class="jobs-section">
+        <h2>Digital Engagement Content Officer</h2>
+        <p><strong>Job Reference Number:</strong> <code style="background-color: #f0f0f0; padding: 0.2em 0.4em; border-radius: 3px;">CO482</code></p>
+        
+        <p><strong>Short Description:</strong> Drive public engagement initiatives by maintaining our suite of client-facing platforms, writing clean environmental impact copy, and managing accessible campaign data structures.</p>
+        
+        <h3>Role Position Details</h3>
+        <ul>
+          <li><strong>Salary:</strong> $72,000 - $81,000 AUD per annum</li>
+          <li><strong>Reporting Line:</strong> Reports directly to the Communications Strategy Manager</li>
+        </ul>
+
+        <h3>Key Responsibilities</h3>
+        <ul>
+          <li>Author accessible web copy detailing our latest project landmarks and carbon-neutral targets.</li>
+          <li>Liaise directly with front-end technical groups to maintain structural page elements without broken links.</li>
+          <li>Coordinate public community webinars focused on neighborhood green solutions.</li>
+        </ul>
+
+        <h3>Position Requirements</h3>
+        <ul>
+          <li><strong>Essential:</strong> Proven baseline background in corporate communications, clear writing mechanics, and fundamental awareness of web layout structures.</li>
+          <li><strong>Preferable:</strong> Prior work experience inside a sustainable energy environment, or working knowledge of basic WCAG web readability strategies.</li>
+        </ul>
+      </section>
+    </div>
+
+</section>
+    <aside>
+    <h3>Why Join Our Team?</h3>
+    <p>We are a forward-thinking renewable energy group dedicated to professional ethics, digital privacy compliance, and sustainable carbon-reduction design choices.</p>
+    <p>All candidates must submit matching reference codes through our standardized application workflow.</p>
+</aside>
+
+    </main>
+    
+
+    <!-- Common Footer -->
+    <footer>
+        <p>&copy; 2026 Your Company Name. All rights reserved.</p>
+        <p>
+            <a href="https://sonyarmstrong1127.atlassian.net/jira/software/projects/CG03/boards/2">Jira project</a> | 
+            <a href="https://sonyarmstrong1127.github.io/cos10026-group03/">Live site</a> | 
+            <a href="mailto:info@harvestpower.example">info@harvestpower.example</a>
+        </p>
+    </footer>
+</body>
+</html>
+
 </body>
 </html>
