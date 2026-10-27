@@ -77,7 +77,38 @@ nav a[aria-current="page"] {
 /* ===== PAGE: index.html (owner: Member 1) ===== */
 
 /* ===== PAGE: jobs.html (owner: Member 2) ===== */
+.jobs-container {
+  display: flex;
+  flex-direction: row;
+  gap: 5%;
+  align-items: flex-start;
+}
 
+.jobs-main-content {
+  width: 70%;
+}
+
+/* Required: Aside floated right, 25% width, styled with margin, padding, and border */
+.jobs-aside {
+  float: right;
+  width: 25%;
+  margin: 0 0 1em 0;
+  padding: 1em;
+  border: 2px solid #1b5e20;
+  border-radius: 4px;
+  background-color: #f4fbf4;
+  box-sizing: border-box;
+}
+
+.jobs-section {
+  margin-bottom: 2.5em;
+  border-bottom: 1px solid #e0e0e0;
+  padding-bottom: 1.5em;
+}
+
+.jobs-section:last-of-type {
+  border-bottom: none;
+}
 /* ===== PAGE: apply.html (owner: Member 3) ===== */
 
 /* ===== PAGE: about.html (owner: Member 2 or 3) ===== */
