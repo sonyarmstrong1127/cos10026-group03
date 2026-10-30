@@ -160,6 +160,18 @@ nav a[aria-current="page"] {
   border-left: 6px solid #e65100;
 }
 
+/* ===== PAGE: jobs.html (owner: Nghia) ===== */
+.jobs-container {
+  display: flex;
+  flex-direction: row;
+  gap: 5%;
+  align-items: flex-start;
+}
+
+.jobs-main-content {
+  width: 70%;
+}
+
 .jobs-aside {
   float: right;
   width: 25%;
@@ -180,6 +192,8 @@ nav a[aria-current="page"] {
 .jobs-section:last-of-type {
   border-bottom: none;
 }
+
+/* ===== PAGE: apply.html (owner: Huy) ===== */
 .apply-form fieldset {
   min-width: 0;
   margin: 0 0 1.25em;
