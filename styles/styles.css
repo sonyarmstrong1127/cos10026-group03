@@ -74,7 +74,7 @@ nav a[aria-current="page"] {
   text-decoration: none;
 }
 
-/* ===== PAGE: index.html (owner: Nghia) ===== */
+/* ===== PAGE: index.html (owner: Huy) ===== */
 .home-hero {
   text-align: center;
   padding: 1.5em;
@@ -104,7 +104,7 @@ nav a[aria-current="page"] {
   background-color: #fff8e1;
 }
 
-/* ===== PAGE: jobs.html (owner: Huy) ===== */
+/* ===== PAGE: jobs.html (owner: Nghia) ===== */
 .jobs-container {
   display: flex;
   flex-direction: row;
