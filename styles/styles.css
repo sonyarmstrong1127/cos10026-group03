@@ -74,7 +74,7 @@ nav a[aria-current="page"] {
   text-decoration: none;
 }
 
-/* ===== PAGE: index.html (owner: Member 1) ===== */
+/* ===== PAGE: index.html (owner: Nghia) ===== */
 .home-hero {
   text-align: center;
   padding: 1.5em;
@@ -104,7 +104,7 @@ nav a[aria-current="page"] {
   background-color: #fff8e1;
 }
 
-/* ===== PAGE: jobs.html (owner: Member 2) ===== */
+/* ===== PAGE: jobs.html (owner: Huy) ===== */
 .jobs-container {
   display: flex;
   flex-direction: row;
@@ -137,7 +137,7 @@ nav a[aria-current="page"] {
 .jobs-section:last-of-type {
   border-bottom: none;
 }
-/* ===== PAGE: apply.html (owner: Member 3) ===== */
+/* ===== PAGE: apply.html (owner: Huy) ===== */
 .apply-form fieldset {
   margin-bottom: 1em;
   border: 2px solid #1b5e20;
@@ -167,7 +167,7 @@ nav a[aria-current="page"] {
   border: none;
 }
 
-/* ===== PAGE: about.html (owner: Member 2 or 3) ===== */
+/* ===== PAGE: about.html (owner: Hai) ===== */
 
 /* ===== Responsive (add @media rules here) ===== */
 
