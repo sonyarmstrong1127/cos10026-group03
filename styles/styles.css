@@ -75,6 +75,34 @@ nav a[aria-current="page"] {
 }
 
 /* ===== PAGE: index.html (owner: Member 1) ===== */
+.home-hero {
+  text-align: center;
+  padding: 1.5em;
+  background-color: #fff3e0;
+  border-radius: 8px;
+}
+
+.services-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.services-table th, .services-table td {
+  border: 1px solid #1b5e20;
+  padding: 0.5em;
+  text-align: left;
+}
+
+.services-table thead th {
+  color: #ffffff;
+  background-color: #1b5e20;
+}
+
+.acknowledgement {
+  padding: 1em;
+  border-left: 6px solid #ef6c00;
+  background-color: #fff8e1;
+}
 
 /* ===== PAGE: jobs.html (owner: Member 2) ===== */
 .jobs-container {
@@ -110,6 +138,34 @@ nav a[aria-current="page"] {
   border-bottom: none;
 }
 /* ===== PAGE: apply.html (owner: Member 3) ===== */
+.apply-form fieldset {
+  margin-bottom: 1em;
+  border: 2px solid #1b5e20;
+  border-radius: 6px;
+}
+
+.form-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5em 1em;
+  margin-bottom: 0.75em;
+}
+
+.form-row label {
+  flex: 0 0 12em;
+}
+
+.form-row input, .form-row select, .form-row textarea {
+  flex: 1 1 15em;
+}
+
+.apply-form .choice-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1em;
+  border: none;
+}
 
 /* ===== PAGE: about.html (owner: Member 2 or 3) ===== */
 
