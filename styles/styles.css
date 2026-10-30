@@ -296,6 +296,60 @@ nav a[aria-current="page"] {
 
 /* ===== PAGE: about.html (owner: Hai) ===== */
 
+
+.about-section {
+  margin-bottom: 2em;
+}
+
+.team-member {
+  margin-bottom: 1em;
+  padding: 0.5em 1em;
+  border-left: 4px solid #1b5e20;
+  background-color: #f4fbf4;
+}
+
+.team-member h3 {
+  color: #1b5e20;
+  margin-bottom: 0.3em;
+}
+
+.member-quote blockquote {
+  margin: 0.5em 0 1em;
+  padding: 0.75em 1em;
+  background-color: #fff8e1;
+  border-left: 4px solid #e65100;
+}
+
+.fun-facts-table {
+  width: 100%;
+  margin: 1em 0;
+  border-collapse: collapse;
+}
+
+.fun-facts-table th,
+.fun-facts-table td {
+  padding: 0.6em;
+  text-align: left;
+  border: 1px solid #cccccc;
+}
+
+.fun-facts-table thead th {
+  color: #ffffff;
+  background-color: #1b5e20;
+}
+
+.group-photo {
+  margin: 1em 0;
+  text-align: center;
+}
+
+.group-photo img {
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+
+
 /* ===== Responsive (add @media rules here) ===== */
 
 /* Logo in header */
