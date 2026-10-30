@@ -1,0 +1,194 @@
+/* ===== PAGE: index.html (owner: Huy) ===== */
+/* Paste this block into styles.css under "PAGE: index.html" */
+
+/* Background graphic made with CSS (repeating gradient stripes) */
+.home-hero {
+  margin-bottom: 1.5em;
+  padding: 2em 1em;
+  text-align: center;
+  background-color: #fff3e0;
+  background-image: repeating-linear-gradient(45deg, #fff3e0 0, #fff3e0 20px, #ffe0b2 20px, #ffe0b2 40px);
+  border-radius: 8px;
+}
+
+.home-hero h1 {
+  margin-top: 0;
+  font-size: 2.4em;
+  color: #1b5e20;
+}
+
+.home-hero img {
+  border: 4px solid #ffffff;
+  border-radius: 8px;
+}
+
+.services-table {
+  width: 100%;
+  margin: 1em 0;
+  border-collapse: collapse;
+}
+
+.services-table caption {
+  padding: 0.5em 0;
+  font-weight: bold;
+  text-align: left;
+}
+
+.services-table th,
+.services-table td {
+  padding: 0.5em 0.75em;
+  text-align: left;
+  border: 1px solid #2e7d32;
+}
+
+.services-table thead th {
+  color: #ffffff;
+  background-color: #1b5e20;
+}
+
+.services-table tbody th {
+  background-color: #e8f5e9;
+}
+
+.services-table tbody tr:hover td {
+  background-color: #fff3e0;
+}
+
+.search-form {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5em;
+}
+
+.search-form input[type="search"] {
+  flex: 1 1 14em;
+  max-width: 24em;
+  padding: 0.4em;
+}
+
+.search-form button {
+  padding: 0.45em 1.2em;
+  color: #ffffff;
+  background-color: #1b5e20;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.search-form button:hover {
+  background-color: #e65100;
+}
+
+.acknowledgement {
+  margin-top: 1.5em;
+  padding: 1em;
+  background-color: #fff8e1;
+  border-left: 6px solid #e65100;
+}
+
+/* ===== PAGE: apply.html (owner: Huy) ===== */
+/* Paste this block into styles.css under "PAGE: apply.html" */
+
+.apply-form fieldset {
+  min-width: 0; /* lets the fieldset shrink on small screens */
+  margin: 0 0 1.25em;
+  padding: 0.75em 1em 1em;
+  border: 2px solid #2e7d32;
+  border-radius: 8px;
+}
+
+.apply-form legend {
+  padding: 0 0.5em;
+  font-weight: bold;
+  color: #1b5e20;
+}
+
+/* Form layout using Flexbox: label on the left, input on the right */
+.form-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5em 1em;
+  margin-bottom: 0.9em;
+}
+
+.form-row > label {
+  flex: 0 0 11em;
+  font-weight: bold;
+}
+
+.form-row > input,
+.form-row > select,
+.form-row > textarea {
+  flex: 1 1 14em;
+  max-width: 26em;
+  padding: 0.4em;
+  font: inherit;
+  border: 2px solid #757575;
+  border-radius: 4px;
+}
+
+/* Radio buttons and checkboxes in a row */
+.apply-form fieldset.choice-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5em 1.5em;
+  margin: 0 0 0.9em;
+  padding: 0;
+  border: none;
+}
+
+.apply-form input:invalid:focus {
+  border-color: #c62828;
+}
+
+.form-buttons {
+  display: flex;
+  gap: 1em;
+}
+
+.form-buttons input {
+  padding: 0.6em 1.4em;
+  font: inherit;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.form-buttons input[type="submit"] {
+  color: #ffffff;
+  background-color: #1b5e20;
+  border: 2px solid #1b5e20;
+}
+
+.form-buttons input[type="submit"]:hover {
+  background-color: #e65100;
+  border-color: #e65100;
+}
+
+.form-buttons input[type="reset"] {
+  color: #1b5e20;
+  background-color: #ffffff;
+  border: 2px solid #1b5e20;
+}
+
+/* Small screens: stack labels above inputs */
+@media (max-width: 40em) {
+  .form-row {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .form-row > label {
+    flex: 0 0 auto;
+  }
+
+  .form-row > input,
+  .form-row > select,
+  .form-row > textarea {
+    flex: 0 0 auto; /* in a column, flex-basis would set the height, so reset it */
+    width: 100%;
+    max-width: none;
+    box-sizing: border-box;
+  }
+}
