@@ -163,7 +163,7 @@ nav a[aria-current="page"] {
 /* ===== PAGE: jobs.html (owner: Nghia) ===== */
 .jobs-container {
   display: flex;
-  flex-direction: row;
+  flex direction: row;
   gap: 5%;
   align-items: flex-start;
 }
@@ -192,7 +192,16 @@ nav a[aria-current="page"] {
 .jobs-section:last-of-type {
   border-bottom: none;
 }
-
+@media (max-width: 50em) {
+  .jobs-container {
+    flex-direction: column;
+  }
+  
+  .jobs-main-content,
+  .jobs-aside {
+    width: 100%;
+  }
+}
 /* ===== PAGE: apply.html (owner: Huy) ===== */
 .apply-form fieldset {
   min-width: 0;
