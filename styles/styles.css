@@ -378,20 +378,6 @@ nav a[aria-current="page"] {
   background-color: #1b5e20;
 }
 
-.group-photo {
-  margin: 1em 0;
-  text-align: center;
-}
-
-.group-photo img {
-  max-width: 100%;
-  border-radius: 8px;
-}
-
-
-
-/* ===== Responsive (add @media rules here) ===== */
-
 /* Logo in header */
 .brand a {
   display: inline-flex;
