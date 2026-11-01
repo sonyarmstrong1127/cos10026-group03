@@ -161,16 +161,10 @@ nav a[aria-current="page"] {
 }
 
 /* ===== PAGE: jobs.html (owner: Nghia) ===== */
-.jobs-container {
-  display: flex;
-  flex-direction: row;
-  gap: 5%;
-  align-items: flex-start;
-  margin-top: 1.5em;
-}
-
-.jobs-main-content {
-  width: 70%;
+.jobs-container::after {
+  content: "";
+  display: block;
+  clear: both;
 }
 
 .jobs-aside {
