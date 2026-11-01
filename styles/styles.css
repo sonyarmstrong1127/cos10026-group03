@@ -174,7 +174,9 @@ nav a[aria-current="page"] {
 }
 
 .jobs-aside {
+  float: right;
   width: 25%;
+  margin: 1.5em 0 1em 1.5em;
   padding: 1.5em;
   border: 2px solid #1b5e20;
   border-radius: 8px;
@@ -185,9 +187,14 @@ nav a[aria-current="page"] {
 
 .jobs-aside h2 {
   margin-top: 0;
+  font-size: 1.2em;
   color: #1b5e20;
   border-bottom: 2px solid #1b5e20;
   padding-bottom: 0.3em;
+}
+
+.jobs-main-content {
+  overflow: hidden;
 }
 
 .jobs-section {
