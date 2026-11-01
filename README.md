@@ -31,5 +31,5 @@ Open the live site link above, or download the repository and open index.html in
 - Layout tested on desktop and mobile widths.
 
 ## Acknowledgement of Generative AI use
-Claude (Anthropic) was used to generate a basic starter skeleton (shared header, menu and footer)
-and to help review and debug code. All content and code were reviewed, edited and tested by the team.
+Phan Quang Huy: "Claude (Anthropic) was used to generate a basic starter skeleton (shared header, menu and footer)
+and to help review and debug code. All content and code were reviewed, edited and tested by the myself."
